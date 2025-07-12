@@ -177,3 +177,61 @@ section {
 }
 
 
+/* Product Users Section Styles starts */
+
+
+
+.product-user-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-users-container {
+
+    background-color: #E5E7FF;
+    height: 306px;
+    width: 1140px;
+    border-radius: 10px;
+    margin: 116px 159px 0px 141px;
+
+}
+
+.product-users-title {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+
+
+.product-parent-tag {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 142px;
+    padding-right: 142px;
+    margin-top: 40px;
+
+
+}
+
+.statistics {
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.statistics-title {
+    font-family: "Inter", sans-serif;
+    font-size: 20;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+
+/* Product Users Section Styles ends */
