@@ -235,3 +235,111 @@ section {
 
 
 /* Product Users Section Styles ends */
+
+/* ----------------------------------------- */
+
+
+/* Cards Section Starts */
+
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.user-container-section {
+    background-color: white;
+    width: 1140px;
+    height: 342px;
+    /* this margin is custom margin  */
+
+    margin-top: 100px;
+    /* this margin is custom margin  */
+    background-color: rgba(245, 248, 255, 1);
+
+
+
+}
+
+
+
+.heading {
+    margin-top: 0px;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 24px;
+
+    height: 243px;
+
+}
+
+.card {
+    height: 243px;
+    width: 366.67px;
+    background-color: white;
+    padding: 24px;
+    box-sizing: border-box;
+
+}
+
+.card-stars-img {
+    margin-bottom: 24px;
+}
+
+
+.card-title {
+    margin-bottom: 24px;
+    font-size: ;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.card-description {
+    font-size: ;
+    color: #514E4E;
+    font-weight: ;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 24px;
+}
+
+.icon {
+    display: flex;
+    gap: 12px;
+}
+
+.icon img {
+    border-radius: 50px;
+
+    height: 40px;
+    width: 40px;
+}
+
+.icon-text {
+    box-sizing: border-box;
+
+}
+
+.icon-name {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #514E4E;
+}
+
+
+.icon-date {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #858282;
+}
