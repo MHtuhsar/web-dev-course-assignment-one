@@ -14,6 +14,7 @@
 
 * {
     margin: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -340,8 +341,9 @@ section {
 
 .icon-date {
     font-size: 16px;
+    font-weight: bold;
     font-family: "Raleway", sans-serif;
-    color: #858282;
+    color: #9b9898;
 }
 
 
@@ -378,4 +380,118 @@ section {
 
 }
 
-/* Ready to focus section starts */
+/* Ready to focus section end */
+/* -------------------------------- */
+
+
+/* Form section styles start */
+/* ------------------------------------- */
+
+.form {
+    height: 632px;
+    width: 1140px;
+
+    display: flex;
+    gap: 105px;
+
+}
+
+.form-section-title {
+    font-size: 97px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    margin-top: 200px;
+}
+
+.form-field {
+
+    margin-top: 103px;
+    margin-bottom: 71px;
+    height: 490px;
+    width: 497px;
+
+
+}
+
+.form-field input[type="text"] {
+
+    height: 70px;
+    width: 497px;
+    display: block;
+    padding: 32px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold
+}
+
+textarea[placeholder="write your massage..."] {
+    width: 497px;
+    padding: 32px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.form-field input[type="submit"] {
+    margin-top: 19px;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    padding: 32px;
+    border-radius: 10px;
+    height: 70px;
+    width: 497px;
+    border: none;
+}
+
+.form-field h5 {
+    margin-bottom: 10px;
+    margin-top: 19px;
+    margin-left: 4px;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Form section styles end */
+/* ------------------------------------- */
+
+footer {
+
+    background-color: white;
+    height: 428px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.end-section h1 {
+    font-size: 100px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900px;
+    color: #4E47FF;
+
+}
+
+.end-section h5 {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: rgba(66, 66, 66, 0.5);
+    font-weight: 600;
+}
+
+footer ul {
+
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: rgba(66, 66, 66, 0.5);
+    font-weight: 600;
+}
