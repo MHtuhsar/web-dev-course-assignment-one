@@ -257,7 +257,7 @@ section {
     height: 342px;
     /* this margin is custom margin  */
 
-    margin-top: 100px;
+    margin-top: 137px;
     /* this margin is custom margin  */
     background-color: rgba(245, 248, 255, 1);
 
@@ -343,3 +343,39 @@ section {
     font-family: "Raleway", sans-serif;
     color: #858282;
 }
+
+
+/* Ready to focus section starts */
+.focus-section {
+    height: 696.77px;
+    width: 1140px;
+    margin-top: 137px;
+}
+
+.focus-heading {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.focus-description {
+    color: rgba(66, 66, 66, 0.5);
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.focus-section img {
+    border-radius: 48px;
+    height: 364.77px;
+    width: 840px;
+    margin: 88px 150px 71px 150px;
+
+
+}
+
+/* Ready to focus section starts */
